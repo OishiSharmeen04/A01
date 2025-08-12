@@ -62,13 +62,14 @@
 .bg {
   background-image: url(./Assets/Hero-bg.png);
   height: 550px;
+  display: flow-root;
 }
 .img {
+  margin-top: 50px;
   border-radius: 10%
 }
 .action {
-  justify-content: space-between;
-  margin: 100px;
+  justify-content: space-around;
 }
 .users {
   background-color: rgba(78, 71, 255, 0.1);
@@ -102,7 +103,6 @@ h2 {
 }
 .main-bg {
   background-color: rgb(235, 238, 245);
-  height: auto;
 }
 li {
   list-style: none;
