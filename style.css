@@ -1,169 +1,185 @@
+
+
 /* fonts */
-.raleway-normal {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-.inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
+    .raleway-normal {
+      font-family: "Raleway", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    }
+    .inter{
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    }
+/* -----------------------------------------------------------------------------------------------------------*/
 /* primary */
-.display {
-  display: flex;
-  align-items: center;
-}
-.text1 {
-  font-weight: 900;
-  font-size: 34px;
-  color: rgba(78, 71, 255, 1);
-}
-.text2 {
-  font-weight: bold;
-  font-size: 65px;
-}
-.text3 {
-  font-weight: bold;
-  font-size: 42px;
-}
-.h{
-  height: 1px;
-}
-.text4 {
-  font-weight: 400;
-  font-size: 24px;
-  color: gray;
-}
-.text5 {
-  color: rgba(78, 71, 255, 1);
-  font-weight: bold;
-  font-size: 80px;
-  height: 10px;
-  text-align: center;
-}
-.text6 {
-  font-weight: 400;
-  font-size: 14px;
-  color: gray;
-}
-.btn {
-  background-color: rgba(78, 71, 255, 1);
-  border: none;
-  color: white;
-  font-weight: 400;
-  font-size: 14px;
-  border-radius: 5px;
-  padding: 5px 30px;
-  cursor: pointer;
-}
-/* secondary */
-.nav {
-  justify-content: space-between;
-  margin: 0px 100px;
-}
-.banner {
-  text-align: center;
-}
-.bg {
-  background-image: url(./Assets/Hero-bg.png);
-  height: 550px;
-  display: flow-root;
-}
-.img {
-  margin-top: 50px;
-  border-radius: 10%
-}
-.img2 {
-  margin-top: 30px;
-  border-radius: 48px;
-}
-.action {
-  justify-content: space-around;
-  padding: 20px 0px 50px 0px;
-}
-.users {
-  background-color: rgba(78, 71, 255, 0.1);
-  border-radius: 10px;
-  text-align: center;
-  padding: 2rem;
-  margin: 100px; */
-}
-.cards {
-  justify-content: space-around;
-  padding: 2rem;
-}
-.fa-star {
-  color: rgba(255, 184, 5, 1);
-}
-.reviewer1 {
-  justify-content: space-between;
-  gap: 20px;
-}
-.reviewer2 {
-  justify-content: center;
-  gap: 52px;
-}
-.rev {
-  gap: 20px;
-}
-.rev-card {
-  background-color: white;
-  border: 2px solid whitesmoke;
-  border-radius: 10px;
-  padding: 0px 20px;
-}
-h2 {
-  text-align: center;
-}
-.main-bg {
-  background-color: rgb(235, 238, 245);
-}
-li {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-  color: gray;
-}
-footer {
-  text-align: center;
-  padding: 0px 0px 100px 0px;
-}
-.add {
-  background-color: white;
-  padding: 20px 0px 50px 0px;
-  text-align: center;
-  margin: 100px;
-}
-.user-bg {
-  margin: 100px;
-}
-.contact {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 100px;
-  padding: 20px 0px 50px 0px;
-}
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  min-width: 300px;
-  max-width: 400px;
-}
-.contact-form label {
-  margin-top: 20px;
-  margin-bottom: 5px;
-}
-.contact-form input,
-.contact-form textarea {
-  padding: 12px 15px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  resize: none;
-}
-.btn:hover {
-  background-color: #4338ca;
-}
+    .display {
+      display: flex;
+      align-items: center;
+    }
+    .text1 {
+      font-weight: 900;
+      font-size: 34px;
+      color: rgba(78, 71, 255, 1);
+    }
+    .text2 {
+      font-weight: bold;
+      font-size: 65px;
+    }
+    .text3 {
+      font-weight: bold;
+      font-size: 42px;
+    }
+    .text4 {
+      font-weight: 400;
+      font-size: 24px;
+      color: gray;
+    }
+    .text5 {
+      color: rgba(78, 71, 255, 1);
+      font-weight: bold;
+      font-size: 80px;
+      height: 10px;
+      text-align: center;
+    }
+    .text6 {
+      font-weight: 400;
+      font-size: 14px;
+      color: gray;
+    }
+    .btn {
+      background-color: rgba(78, 71, 255, 1);
+      border: none;
+      color: white;
+      font-weight: 400;
+      font-size: 14px;
+      border-radius: 5px;
+      padding: 5px 30px;
+      cursor: pointer;
+    }
+    .btn:hover {
+    background-color: #4338ca;
+    }
+/* -----------------------------------------------------------------------------------------------------------*/
+/* header */
+    .nav {
+      justify-content: space-between;
+      margin: 0px 100px;
+    }
+    .banner {
+      text-align: center;
+    }
+    .bg {
+      background-image: url(./Assets/Hero-bg.png);
+      height: 550px;
+      display: flow-root;
+    }
+/* -----------------------------------------------------------------------------------------------------------*/
+/* main */
+    .main-bg {
+      background-color: rgb(235, 238, 245);
+    }
+    /* action */
+    .img {
+      margin-top: 50px;
+      border-radius: 10%
+    }
+    .action {
+      justify-content: space-around;
+      padding: 20px 0px 50px 0px;
+    }
+
+    /* productive users */
+    .users {
+      background-color: rgba(78, 71, 255, 0.1);
+      border-radius: 10px;
+      text-align: center;
+      padding: 2rem;
+      margin: 100px; */
+    }
+    .cards {
+      justify-content: space-around;
+      padding: 2rem;
+    }
+
+    /* user's feedback */
+    .user-bg {
+      margin: 100px;
+    }
+    h2 {
+      text-align: center;
+    }
+    .reviewer1 {
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .fa-star {
+      color: rgba(255, 184, 5, 1);
+    }
+    .rev {
+      gap: 20px;
+    }
+    .rev-card {
+      background-color: white;
+      border: 2px solid whitesmoke;
+      border-radius: 10px;
+      padding: 0px 20px;
+    }
+
+    /* additional section */
+      .img2 {
+        margin-top: 30px;
+        border-radius: 48px;
+      }
+      .add {
+      background-color: white;
+      padding: 20px 0px 50px 0px;
+      text-align: center;
+      margin: 100px;
+      }
+
+    /* let's get in touch */
+      .contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 100px;
+        padding: 20px 0px 50px 0px;
+      }
+      .contact-form {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        min-width: 300px;
+        max-width: 400px;
+      }
+      .contact-form label {
+        margin-top: 20px;
+        margin-bottom: 5px;
+      }
+      .contact-form input,
+      .contact-form textarea {
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        resize: none;
+      }
+/* -----------------------------------------------------------------------------------------------------------*/
+/* footer */
+    footer {
+      text-align: center;
+      padding: 0px 0px 100px 0px;
+    }
+    li {
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+      color: gray;
+    }
+    .reviewer2 {
+      justify-content: center;
+      gap: 52px;
+    }
+
+
