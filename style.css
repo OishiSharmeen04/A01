@@ -99,7 +99,6 @@
     }
     .cards {
       justify-content: space-around;
-      padding: 2rem;
     }
 
     /* user's feedback */
@@ -166,7 +165,7 @@
       }
 /* -----------------------------------------------------------------------------------------------------------*/
 /* footer */
-    footer {
+    .footer {
       text-align: center;
       padding: 0px 0px 100px 0px;
     }
